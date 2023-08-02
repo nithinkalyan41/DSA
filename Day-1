@@ -1,0 +1,74 @@
+ JAVA ARCHITECTURE:
+ 		
+ 		hi.java --> java compiler    --> hi.class    --> java virtual machine(JVM)      --> Operating System --> CPU 
+ 				
+ 		(*)java compiler : converts the java code into bytecode which can be uunderstandble by a machine and generates a class file which contains bytecode.
+ 		
+ 		(*)java virtual machine : it is a virtual machine / cpu used to run the java program in any kind of platform it understands the byte code only.
+ 					  And it is not a physical/Hardware component.And behind the scene it works by communicating with the operating system
+ 					  to execute the code.
+ 		(*)Operating System : it is a interface between the user and the machine and it is a software component.
+ 		
+ 		
+ 		 this java architecture supports both the compilation of the code and interpretation of the code.
+ 		 java compiler do the compilation and jvm will do the interpretation.
+ 		
+ 		
+ 		
+
+prerequsites to learn DSA:
+	1.OOPS
+	2.Arrays and Strings.
+	3.collections.
+	4.multi-threading
+	5.SQL
+
+Algorithm:
+
+	A step by step instructions to solve a problem. by taking a look at of an algorithm anyone can do the implementation easily.
+	
+
+How to apprach a problem :
+
+		--> read the problem
+		--> analyze the problem
+		--> think of the solution
+		--> pen down the solution(Algorithm,pseudo code,flowcharts these are used to convey the logic to other developers)
+		--> code the solution
+	there will different solutions for one problem but the answer can be choosed based on the company's necessity and requirement.
+	
+	
+	TradeOff in algorithms:
+		
+		where the solution is having o(1) of time complexity and o(n) space complexity
+								(and)
+					     o(n) of time complexity and o(1) space complexity
+		the devlepers can chose their solution based on the company's necessity if the company have much spacee they will go for the first approach else 
+		second approach.
+		
+Software Engineering lifecycle:
+			--> requirement anaysis -> Defining -> Designing -> Coding -> Testing -> Deployement -> maintainence -->
+			
+			for every project this life cycle it will start form the requirement analysis and goes til the maintainence.
+			
+			(*)Requirement analysis : the required information about the project studied with the exact information without any assumptions
+			(*)Defining : the info about the project will be created in a document for the software requirements.
+			(*)Designing:it is a process of designing about the software requirements in the form UML disgrams etc.,
+			(*)Coding : The software development will be goes on this phase.
+			(*)Testing : The final product can be tested by the client if there is any changes it will redeveloped as per client requierments. 
+			(*)Depolyment : The software deployment will be done in this phase.
+			(*)maintainence : the developed software can be provided with maintainence service but its not manadary for all kind of softwares.
+			
+			
+DRY principle:
+		DRY(Don't Reapeat Yourself)
+		
+		it is a programming princple states that a good programmer must dont write the same code for multiple times instead of write code once and reuse it how 
+		time you want.	
+	
+						  
+ 					  	 	
+ 		
+ 		
+ 				
+ 				
