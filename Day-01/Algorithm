@@ -1,0 +1,46 @@
+Algorithm : 
+
+	A step by step procedure used to solve a particular problem or to write a program.
+	
+Question : write an algorithm to find sum of N natural numbers?
+
+	Algorithm:
+	
+	step1 -> create a text file with the extension of filename.java and create a class in the that file with the same filename.
+	
+	step2 -> create main method inside the class.And declare a variable N=5.
+	
+	step3 -> declare another variable with the name of answer and its value is 0.
+	
+	step4 -> Take a for loop intialise the value of i=1, loop condition i<=n and i++;
+	
+	step5 -> change the value of sum = sum + i.
+	
+	step6 -> print the sum.
+	
+	step7 -> Execute the program.
+	
+	
+Question : write an algorithm to make biryani?
+
+	Algorithm:
+	step1 -> collect all the below ingredients
+			boiled basmathi rice,chicken,mirchi powder,salt,masalas(Garam,corrindor,biryani),turmeric powder,garlic paste,curd,mrichoi flakes,onions,tomatoes,oil and other collection
+			of masala grains.
+			
+	step2 -> Take a bowl and put on the stove and maintain medium flame.
+	
+	step3 -> Then add oil and add masala grains and fry them for 3mins and add onion slices,mirchi slices and tomato slices and mix them will for 5mins.
+	
+	step4 -> add chicken,mirchi powder,garlic paste,turmeric power,salt,masalas,mirchi flakes,add fired onion and mix them well.
+	
+	step5 -> boil the chicken for 20mins.
+	
+	step6 -> add the boiled rice to that bowl and cook it for 10 more mins.
+	
+	step7 -> open it add food colors.
+	
+	step8 -> your biryani got prepared.
+	
+	
+			 
