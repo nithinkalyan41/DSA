@@ -88,3 +88,49 @@ Algorithm :
  	step5 -> else print "ZERO".
  	
  	step6 -> end.
+ 	
+ 	
+ Question : write an algorithm to add two numbers?
+ 
+ 	Algorithm :
+ 	
+ 	step1 -> start
+ 	
+ 	step2 -> create two integer variables as a=5,b=10.
+ 	
+ 	step3 -> create another integer variable as sum=0.
+ 	
+ 	step4 -> change the value of sum = a+b.
+ 	
+ 	step5 -> print sum.
+ 	
+ 	step6 -> end.
+ 	
+ Question : write an algorithm to print multiplication table of a number n?
+ 
+ Algorithm : 
+ 		step1 -> start.
+ 		
+ 		step2 -> create a integer variable as n=5.
+ 		
+ 		step3 -> take a loop with an integer variable i=1,i<=10 and i++.
+ 		
+ 		step4 -> print "n*i="n*i.
+ 		
+ 		step5 -> end.
+ 	
+ Question : write an algorithm to print odd numbers till n ?
+ 
+ Algorithm : 
+ 
+ 	step1 -> start
+ 	
+ 	step2 -> create an integer variable as n=30.
+ 	
+ 	step3 -> take a loop with an integer variable i=1,i<=n and i++.
+ 	
+ 	step4 -> make a if condition inside the loop as i%2!=0.
+ 	
+ 	step5 -> print i if the condition is true.
+ 	
+ 	step6 -> end.
