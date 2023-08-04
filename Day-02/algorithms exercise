@@ -1,0 +1,90 @@
+Question : write an algorithm to find average of three numbers?
+
+Algorithm : 
+ 	step1 -> start
+ 	
+ 	step2 -> create three integer variables with the names of x,y and z.
+ 	
+ 	step3 -> intialize values to those variables.
+ 	
+ 	step4 -> create another integer variable as average.
+ 	
+ 	step5 -> state that average = (x+y+z)/3.
+ 	
+ 	step6 -> print average.
+ 	
+ 	step7 -> end.
+ 
+ Question : write an algorithm to print N natural numbers?
+ 
+ Algorithm : 
+ 		
+ 	step1 -> start
+ 	
+ 	step2 -> create an integer variable as N and intialize its value.
+ 	
+ 	step3 -> take a for loop where i=1 , i<=n and i++.
+ 	
+ 	step4 -> print the i value for iteration of loop.
+ 	
+ 	step5 -> end.
+ 	
+ Question : write an algorithm to find biggest number amoung three number?
+ 
+ Algorithm:
+ 	step1 -> start.
+ 	
+ 	step2 -> create three integer variables as x,y and z.
+ 	
+ 	step3 -> make these conditions if a>b && a>c print a as biggest number.
+ 	
+ 	step4 -> else if b>a && b>c print b as biggest number.
+ 	
+ 	step5 -> else print c as a biggest number.
+ 	
+ 	step6 -> end.
+ 	
+ Question : write an algorithm to find factorial of a number?
+ 
+ Algorithm : 
+ 		step1 -> start.
+ 		
+ 		step2 -> create a integer variable as N and intialize the value.
+ 		
+ 		step3 -> create a recursive function as Factorial with a base condition if(N==0) return 1.
+ 		
+ 		step4 -> in else return N+Factorial(N-1).
+ 		
+ 		step5 -> print the value of Factorial(N).
+ 		
+ 		step6 -> end.
+ 		
+ Question : write an algorithm to find the given value can form a valid triangle or not?
+ 
+ Algorithm :
+ 
+ 	step1 -> start.
+ 	
+ 	step2 -> create three integer variables as a,b and c and intialise values.
+ 	
+ 	step3 -> validate the variables with if condition a+b>c && b+c>a && c+a>b and print "YES".
+ 	
+ 	step4 -> else print "NO"
+ 	
+ 	step5 -> end.
+ 	
+ Question : write an algorthm to find the given number is +ve,-ve or zero?
+ 
+ Algorithm :
+ 	
+ 	step1 -> start.
+ 	
+ 	step2 -> create a integer variable with as a and intialise its value.
+ 	
+ 	step3 -> make a conditional statement if a>0 print "+ve number".
+ 	
+ 	step4 -> else if a<0 print "-ve number".
+ 	
+ 	step5 -> else print "ZERO".
+ 	
+ 	step6 -> end.
