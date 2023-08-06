@@ -1,0 +1,150 @@
+Question: write an algorithm to multiple two numbers?
+
+Algorithm :
+ 	 step1 -> start
+ 	 
+ 	 step2 -> create two integer variables as a,b and assign its values.
+ 	 
+ 	 step3 -> create another integer variable as product = a * b.
+ 	 
+ 	 step4 -> print product.
+ 	 
+ 	 step5 -> end.
+ 	 
+Question: write an algorithm to a given number is prime or composite.
+
+Algorithm:
+	step1 -> start
+	
+	step2 -> create an integer n and assign its value.
+	
+	step3 -> create variables like integer i=2,and boolean prime = true. 
+	
+	step4 -> take a loop where i<n,i++ and if n%i==0 make the prime = false.
+	
+	step5 -> if prime is true then print as "N is prime number".
+	
+	step6 -> else print as "N is composite number".
+	
+	step7 -> end.
+	
+Question : write an algorithm to find largest number amoung n elements?
+
+Algorithm :
+	step1 -> start.
+	
+	step2 -> create an integer variable as n=5 and also max = Integer_MINVALUE.
+	
+	step3 ->take a loop where i=1,i<=n and i++.
+	
+	step4 -> accept the input from user as integer variable temp.
+	
+	step5 -> check if temp > max then max = temp.
+	
+	step6 -> after the loop print max.
+	
+	step7 -> end.
+	
+Question : write an algorithm to find type of a triangle?
+
+Algorithm:
+	step1 -> start.
+	
+	step2 -> create three integer variables as side1,side2,side3 and assign its values.
+	
+	step3 -> check by these conditions if all sides are equal print as "equalateral triangle";
+	
+	step4 -> else if all sides a different from each other then print as "scalene triangle".
+	
+	step5 -> else print as "Isocelus triangle".
+	
+	step6 -> end
+	
+Question : write an algorithm to find sum of even numbers till N?
+
+Algorithm : 
+	step1 -> start.
+	
+	step2 -> create an integer variable as n and also sum =0.
+	
+	step3 -> take a loop where i=1,i<=n and i++.
+	
+	step4 -> check if condition i%2==0 change the value of sum = sum + i.
+	
+	step5 -> else continue to loop.
+	
+	step6 ->print sum.
+	
+	step7 ->end.
+	
+Question : write an algorithm to find GCD of two numbers?
+
+Algorithm : 
+	step1 -> start
+	
+	step2 -> create two integers as a,b and initalise its values.
+	
+	step3 -> And also create integer variable as GCD and assign its value as 1.
+	
+	step4 -> take a loop where integer i=1,i<=a && i<=b and i++.
+	
+	step5 -> check these conditions inside the loop if a%i==0 && b%i==0.
+	
+	step6 -> if the condition is true change the gcd value to i.
+	
+	step7 -> print gcd.
+	
+	step8 ->end.
+	
+Question : write an algorithm print prime number till given n?
+ 
+ Algorithm :
+          step1 -> start.
+          
+          step2 -> create a integer variable n and read its value.
+          
+          step3 -> take a loop with integer variable i=1;i<=n and i++.
+          
+          step4 -> Inside the loop create a boolean variable as true and j=2.
+          
+          step5 -> then take a loop with condition j<i and check the condition inside this loop as if n%i==0 set value of the boolean variable as false else true.
+          
+          step6 -> j++. in outer loop check if the boolean value is true print i.
+          
+          step7 -> end.
+        
+Question : write an algorithm to print fibonacci series till n?
+
+Algorithm : 
+	step1 -> start.
+	
+	step2 -> create an integer variable a n and read its value.
+	
+	step3 -> create three integer values as a=0,b=1.
+	
+	step4 -> take a loop a integer i=2,i<n and i++.
+	
+	step5 -> create an temp variable = a+b and print the temp variable.
+	
+	step6 -> then change the value of a=b and b=temp.
+	
+	step7 -> end         
+
+Question : write an algorithm to check the given number is in fibonacci series or not?
+
+Algorithm : 
+	step1 -> start.
+	
+	step2 -> create a variable n and read it value.
+	
+	step3 -> create four integer variables a below:
+				x = 5*n*n+4;
+				y = 5*n*n-4;
+				z = Math.sqrt(x);
+				a = Math.sqrt(y);
+	step4 -> check the condition if (z*z==x ) or (a*a == y) print "YES"
+
+	step5 -> else print "NO"
+	
+	step6 -> end.	
+ 	 
