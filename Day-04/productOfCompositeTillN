@@ -1,0 +1,32 @@
+Question : write a pseudocode for product of composite number till N ?
+
+Answer :
+ 	 
+ 	 Begin
+ 	 
+ 	 	n = 10
+ 	 	
+ 	 	product = 1
+ 	 	
+ 	 	Function : isPrime
+ 	 		num = input()
+ 	 		for i = 2 to SquareRoot(num)
+        			If (num % i == 0)
+           			 Return false
+        			end If
+    			end For
+ 	 	
+ 	 	for i = 1 to n
+ 	 	    if (!isPrime(i))
+ 	 	    	product = product * i.
+ 	 	    endif
+ 	 	endfor
+ 	 	
+ 	 	print(product)
+ 	 	    
+ 	 End	    	
+ 	 	    
+ 	 	   
+ 	 	    
+ 	 	    
+ 	 	    	

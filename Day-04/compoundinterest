@@ -1,0 +1,23 @@
+
+
+Question : write a pseudo code to calculate compound interest?
+
+Answer : 
+
+Begin
+
+ p = 10000.
+ 
+ rateofinterest = 0.50.
+ 
+ years = 2.
+ 
+ a = p * (Math.pow(1+rateofinterest,t)).
+ 	
+ ci = a-p.
+ 	
+ print(ci)
+ 
+End
+
+ 
