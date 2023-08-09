@@ -1,0 +1,15 @@
+Question : Write a pseudocode to find largest number between three numbers?
+
+Answer :
+
+	Begin
+	a = input()
+	b = input()
+	c = input()
+	if a>b AND a>c
+	    print(a)
+	elif b>a AND b>c
+	    print(b)
+	else
+	    print(c)
+	End.			

@@ -1,0 +1,38 @@
+Abstract Data Type (ADT)
+
+	--> Primtive data types in java are INT,FLOAT,BYTE,CHAR,DOUBLE,BOOLEAN,SHORT,LONG these are used to store atomic values such as
+	 smaller and single value and we can to basic Arthematic operations.
+	
+	--> Complex data types in java are LIST,STACK,QUEUE,SET etc., where these are used to store set of values and to make set of set of operations.
+
+	These kind of complex datatypes can be known as abstract data types.the abstract datatypes can be provided in inbulit libraries of java and if any
+	necessary user can create as per his requirements.
+
+	--> Abstract Data type (ADT) is a type (or class) for objects whose behavior is defined by a set of values and a set of operations.
+	
+	Abstraction in simple words hiding the internal implementation of program and only shows the required essentials to user.
+	this abstraction can be used programming to hide the business logic and restricting the user to make changes of source code an application.
+	
+	project -> sourcecode -> compile -> jarfile
+	
+	Advantages of ADT :
+		->Encapsulation
+		->Robust
+		->Abstraction
+		->DataStructure Independence
+		->Information Hiding
+		->Modularity
+	Disadvantages of ADT :
+		->Overhead
+		->Complexity
+		->Learning
+		->Cost
+			
+	
+	
+	
+	
+	 
+	 
+	  
+	 

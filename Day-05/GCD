@@ -1,0 +1,22 @@
+Question : Write pseudocode to find GCD of two numbers?
+
+Answer	:
+	Begin
+	
+	a = input()
+	
+	b = input()
+	
+	ans = Math.min(a,b)
+	
+	While temp > 0
+		
+		if a%temp==0 AND b%temp==0
+			break
+		ans--.
+	End loop
+	print(ans)
+	
+	End.	
+			
+	

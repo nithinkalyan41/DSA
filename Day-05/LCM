@@ -1,0 +1,28 @@
+Question : write pseudocode to find LCM of two numbers?
+
+Answer :
+	 Begin
+	 a = input()
+	 b = input()
+	 
+	 gcd = Math.min(a,b)
+	
+	While temp > 0
+		
+		if a%temp==0 AND b%temp==0
+			break
+		ans--.
+	End loop
+	
+	lcm = (a * b)/gcd
+	
+	print(lcm)
+	
+	End
+	
+	 
+         
+         		
+         	
+                
+                

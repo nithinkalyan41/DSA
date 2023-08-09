@@ -1,0 +1,18 @@
+Question : Write a pseudocode to print sum of numbers till N?
+
+Answer :
+	Begin
+	
+	n = input()
+	
+	sum = 0
+	
+	for i = 1 to n
+		
+		sum = sum + i
+	endfor
+	
+	print(sum)
+	
+	End.	
+	
