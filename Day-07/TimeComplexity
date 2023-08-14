@@ -1,0 +1,51 @@
+What is time complexity?
+	In general words,the amount of time taken to execute a program this can be represented with Big O notation.in solving a problem there are different solutions 
+	which can take more time and also some of them will take less time.
+	
+need of calculating time complexity?
+	To find out whether the program is scalable, efficient or not.in most of the cases to archieve time complexity tradeoff space complexity.
+	
+	Time complexity focuses on the below three cases but mainly on the last cases:
+	Best case.
+	Average case.
+	Worst case.
+	
+	** To describe the performance of an algorithm.
+	** To find scalable or not.
+	** To the algorithm is efficient or not.
+	
+	most of the companies they can earn customers based on the speed of application working.so all companies are always tries reduce their application
+	time complexity.
+ 
+
+Why time complexity not calculated in general time basis?
+	the reason is many kind of devices in this world some fo them are fast and some of them slow as per its functionality.we cannot say confirmly
+	this program will take this much of time exactly.
+	
+	  	       O(1) 	  -> 1      ->1millisec
+	logarithmic -> O(log n)   -> 3.32   ->3 millisec
+	linear	    -> O(n)	  ->10	    ->10millisec
+		       O(nlog n) -> 33.2   ->33millisec
+	Quaratic    -> O(n^n)    -> 10^2   ->100millisec
+	cubic       -> O(n^n^n)  -> 10^3   ->1microsec
+	Exponential -> O(2^n)    -> 1024   ->10microsec
+	Factorial   -> O(n!)	 -> 10!    ->3.6288sec
+	
+	
+	example of O(n)
+		
+		for(int i=0;i<n;i++){
+			sout(i); 		//O(n)
+		}	
+		
+	example of O(n^2)	
+		for(int i=0;i<n;i++){
+			for(int j=0;j<n;j++){
+				sout(j);	//O(n^2)
+			}
+		}
+	example of logn
+		for(int i=1;i<=n;i*=n){
+			sout(i);		//O(logn)
+		}			
+	
