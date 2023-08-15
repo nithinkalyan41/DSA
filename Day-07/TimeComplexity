@@ -22,9 +22,9 @@ Why time complexity not calculated in general time basis?
 	the reason is many kind of devices in this world some fo them are fast and some of them slow as per its functionality.we cannot say confirmly
 	this program will take this much of time exactly.
 	
-	  	       O(1) 	  -> 1      ->1millisec
-	logarithmic -> O(log n)   -> 3.32   ->3 millisec
-	linear	    -> O(n)	  ->10	    ->10millisec
+	  	       O(1) 	  -> 1     ->1millisec
+	logarithmic -> O(log n)   -> 3.32  ->3 millisec
+	linear	    -> O(n)	  ->10	   ->10millisec
 		       O(nlog n) -> 33.2   ->33millisec
 	Quaratic    -> O(n^n)    -> 10^2   ->100millisec
 	cubic       -> O(n^n^n)  -> 10^3   ->1microsec
@@ -48,4 +48,16 @@ Why time complexity not calculated in general time basis?
 		for(int i=1;i<=n;i*=n){
 			sout(i);		//O(logn)
 		}			
+	
+	
+	
+	** if there are two algorithms X and Y,algorithm X is asymptotically more efficient than Y because if  X takes smaller time than y for all input sizes n 
+	larger than a value n0 where n0 > 0.
+	
+	** To find out the efficiency of the algorithm is based on the both time and memory.
+	
+	** the time complexity can be measured on the base of By counting the number of primitive operations performed by the algorithm on a given input size.
+	
+	
+
 	
