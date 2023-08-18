@@ -21,5 +21,10 @@ public class Main {
       array.clear();
       System.out.println(array);
       array.subList(0,3);
+      System.out.println();
+      while(array.hasnext()){
+        System.out.print(array.next()+" ");
+      }
+
     }
 }
