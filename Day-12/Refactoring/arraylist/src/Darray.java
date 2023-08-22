@@ -122,13 +122,7 @@ public class Darray {
         elements=temp;
     }
     int max(){
-        int max = 0;
-        for(int i=0;i<index;i++){
-            if(elements[i]>max){
-                max=elements[i];
-            }
-        }
-        return max;
+        return Arrays.stream(elements).max().getAsInt();
     }
     int min(){
         int min = Integer.MAX_VALUE;
