@@ -98,14 +98,16 @@ public class CircularLinkedList {
         var current = head.next;
         while(current!=head){
             if(prev.value == current.value){
-                var temp = current.next.next;
+                var temp = current.next;
                 current.next = null;
                 prev.next = temp;
-            }
-
-                prev.next = current;
+               // prev = prev.next;
                 current = current.next;
-
+            }else{
+                prev = prev.next;
+                current = current.next;
+            }
+            System.out.print(prev.value+" "+ current.value+"\n");
         }
     }
 }

@@ -12,6 +12,6 @@ public class Main {
             cll.addLast(40);
             cll.addLast(50);
             cll.removeDupilcates();
-            cll.print();
+            //cll.print();
     }
 }
