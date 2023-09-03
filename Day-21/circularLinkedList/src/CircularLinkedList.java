@@ -1,3 +1,5 @@
+import javax.swing.tree.AbstractLayoutCache;
+
 public class CircularLinkedList {
     private class Node{
         int value;
@@ -94,6 +96,8 @@ public class CircularLinkedList {
         }
     }
     void removeDupilcates(){
+        if(isEmpty())
+            throw new IllegalStateException();
         var prev = head;
         var current = head.next;
         while(current!=head){
@@ -101,13 +105,36 @@ public class CircularLinkedList {
                 var temp = current.next;
                 current.next = null;
                 prev.next = temp;
-               // prev = prev.next;
-                current = current.next;
-            }else{
+                current = temp;
+            }else {
                 prev = prev.next;
                 current = current.next;
             }
-            System.out.print(prev.value+" "+ current.value+"\n");
+            //System.out.print(prev.value+" "+ current.value+"\n");
         }
+    }
+    void addAtRightSlot(int value){
+                var node = new Node(value);
+                Node i = head;
+                if(isEmpty()){
+                    addFirst(value);
+                    return;
+                }
+                else if(node.value < i.value){
+                    addFirst(value);
+                    return;
+                }
+                while(i.next!=head){
+                     if(node.value >= i.value && node.value <= i.next.value){
+                        var temp = i.next;
+                        node.next = temp;
+                        i.next = node;
+                        return;
+                    }
+                    i = i.next;
+                }
+                if(node.value > i.value){
+                    addLast(value);
+                }
     }
 }

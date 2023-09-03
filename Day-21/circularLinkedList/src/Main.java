@@ -10,8 +10,13 @@ public class Main {
             cll.addLast(30);
             cll.addLast(30);
             cll.addLast(40);
-            cll.addLast(50);
+            cll.addLast(40);
             cll.removeDupilcates();
-            //cll.print();
+            cll.addAtRightSlot(25);
+            cll.addAtRightSlot(35);
+            cll.addAtRightSlot(55);
+            cll.addAtRightSlot(2);
+            cll.addAtRightSlot(4);
+            cll.print();
     }
 }
