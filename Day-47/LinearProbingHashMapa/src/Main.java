@@ -54,6 +54,21 @@ class HashMap {
             entries[index]= new Entry(0,null);
         }
     }
+     public boolean containsKey(int key){
+        int index = linearProbingHash(key);
+        if(entries[index] == null){
+            return false;
+        }
+        return true;
+    }
+    public boolean containsValue(String value){
+        for(Entry entry : entries){
+            if(entry.value != null &&  entry.value.equals(value)){
+                return true;
+            }
+        }
+        return false;
+    }
 
     void print(){
         for(var entry : entries){
