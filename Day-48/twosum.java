@@ -1,9 +1,9 @@
-import java.util.HashMap;
+import java.util.*;
 public class twosum{
    public static void main(String args[]){
    	int a[] = {1,2,3,4,5,6,8,4,5};
    	int target = 5;
-    HashMap<Integer,Integer> m = new HashMap<>();
+    HashMap<Integer, Integer> m = new HashMap<Integer, Integer>();
     for (int i = 0; i < a.length; i++) {
         m.put(a[i], i);
     }
