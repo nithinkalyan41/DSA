@@ -18,9 +18,21 @@ public class Main {
            b[i]=sc.nextInt();
        }
         System.out.println("O(n) Time and Space Complexity : " + duplicateContains(a,b,n));
-
+        System.out.println("O(n^2) Time and Space Complexity : " + duplicateContain(a,b,n));
         System.out.println("O(nlogn) Time and Space Complexity : " + byUsingBinarySearch(a,b,n));
     }
+
+    private static boolean duplicateContain(int[] a, int[] b, int n) {
+        for(int i=0;i<n-1;i++){
+            for(int j=i+1;j<n;j++){
+                if(a[i]==a[j]){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     static boolean duplicateContains(int a[],int b[],int n){
         Set<Integer> s = new HashSet<>();
         for(int x : b){
