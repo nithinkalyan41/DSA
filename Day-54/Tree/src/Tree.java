@@ -86,5 +86,17 @@ public class Tree {
             return 0;
         return 1+Math.max(printHeight(root.left),printHeight(root.right));
     }
+    void printLevels(Node root){
+        if(root==null)
+            return;
+        if(root.left !=null && root.right !=null){
+            System.out.print(root.data+" ");
+        }else{
+            System.out.print(root.data+" ");
+        }
+        printLevels(root.left);
+        printLevels(root.right);
+
+    }
     
 }

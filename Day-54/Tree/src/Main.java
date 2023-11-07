@@ -1,3 +1,5 @@
+import java.io.FilterOutputStream;
+
 public class Main {
     public static void main(String[] args) {
         Tree t = new Tree();
@@ -11,7 +13,7 @@ public class Main {
         t.insert(90);
         t.insert(50);
         t.insert(46);
-        System.out.println(t.find(20));
+      /*  System.out.println(t.find(20));
         System.out.println("Pre Order");
         t.printPreOrder(t.root);
         System.out.println("\nPost Order");
@@ -19,7 +21,8 @@ public class Main {
         System.out.println("\nInOrder");
         t.printInOrder(t.root);
         System.out.println("\nMin value : "+t.printMin(t.root));
-        System.out.println(t.printHeight(t.root));
+        System.out.println(t.printHeight(t.root));*/
+        t.printLevels(t.root);
 
     }
 }
