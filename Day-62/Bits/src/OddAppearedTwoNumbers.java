@@ -13,14 +13,11 @@ public class OddAppearedTwoNumbers {
             res ^= a[i];
         }
         int c = 0;
-        while(res!=0){
-            if((res&1)==1){
-                break;
-            }
-            c++;
-           res>>=1;
+        int mask = 1;
+        while((res&1)!=1){
+           mask<<=1;
         }
-        int mask = 1<<c;
+
         int num1 = 0,num2=0;
         for(int i=0;i<n;i++){
             if((num1&mask) ==0){
@@ -32,3 +29,4 @@ public class OddAppearedTwoNumbers {
         System.out.println(num1+" "+num2);
     }
 }
+
