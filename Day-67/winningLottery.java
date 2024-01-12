@@ -12,9 +12,8 @@ public class winningLottery {
     for(int i=d-1;i>=0;i--){
       if (i == 0) {
         a[0] = sum + 1;
-        break;
     }
-        if(sum >= 9){
+        else if(sum >= 9){
           a[i]=9;
           sum-=9;
         }else{
@@ -26,7 +25,7 @@ public class winningLottery {
       System.out.println(-1);
     }else{
       for(int i=0;i<d;i++){
-        System.out.print(a[i]);
+        System.out.print(a[i]+" ");
       }
     }
    

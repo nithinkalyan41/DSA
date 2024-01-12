@@ -20,14 +20,17 @@ public class ProductDiscussion {
         for (int i = 1; i < n - 1; i++) {
             int newSmall = a[i] - k;
             int newLarge = a[i] + k;
-
+              //System.out.println(newSmall+" "+newLarge);//+" "+small+" "+large);    
             if (newSmall >= small || newLarge <= large)
                 continue;
-            if ((large - newSmall) <= (newLarge - small))
+            if(newSmall<small && large < newLarge)
                 small = newSmall;
             else
                 large = newLarge;
+
+       
         }
+        
 
         ans = Math.min(ans, Math.abs(large - small));
         return ans;
